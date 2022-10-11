@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="addToCart()">
+    <div class="header">
+
+
+
+
+
+
+
+
+
+    </div>
+    <div class="cart-menu" id="cart-menu">
+
+    </div>
+    <div class="container">
+         <div class="container-item">
+            <div class="cart-front">
+                <div class="close" id="close0" onclick="cl('0')">x</div>
+                <div class="cart-img">
+                    <img id="img0" src="./prodect-images/IMG-20210703-WA0009_2.jpg" alt="product">
+                </div>
+                <div class="name-price" id="name-price0">
+                    <div class="info-item">
+                        <div class="name" id="name0">
+                        <h3>Shoes</h3>
+                        <span>Summer Shoes</span>
+                    </div>
+                    <div class="price" id="price0">
+                        <h3>$39</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="cart0" id="cart0">
+                <div class="cart-item">
+                    <button onclick="addToCart('0')">Add To Cart</button>
+                    <button onclick="viewGallery('0')">View Gallery</button>
+                </div>
+                <div class="cart-item-info">
+                    <div class="info-item">
+                        <div class="name">
+                            <h3>Shoes</h3>
+                            <span>Summer Shoes</span>
+                        </div>
+                        <div class="price">
+                            <h3>$39</h3>
+                        </div>
+
+                    </div>
+                  <div class="cart-item-size">
+                    <h3>Sizes</h3>
+                    <span>XL,S,M,L,XL,XXL</span>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="container-item">
+            <div class="cart-front">
+                <div class="close" id="close1" onclick="cl('1')">x</div>
+                <div class="cart-img">
+                    <img id="img1" src="./prodect-images/IMG-20210703-WA0009_2.jpg" alt="product">
+                </div>
+                <div class="name-price" id="name-price1">
+                    <div class="info-item">
+                        <div class="name" id="name1">
+                        <h3>chappal</h3>
+                        <span>Summer Shoes</span>
+                    </div>
+                    <div class="price" id="price1">
+                        <h3>$39</h3>
+                    </div>
+                </div>
+            </div>
+         </div>
+            <div class="cart1" id="cart1">
+                <div class="cart-item">
+                    <button onclick="addToCart('1')">Add To Cart</button>
+                    <button onclick="viewGallery('1')">View Gallery</button>
+                </div>
+                <div class="cart-item-info">
+                    <div class="info-item">
+                        <div class="name">
+                            <h3>Shoes</h3>
+                            <span>Summer Shoes</span>
+                        </div>
+                        <div class="price">
+                            <h3>$39</h3>
+                        </div>
+
+                    </div>
+                  <div class="cart-item-size">
+                    <h3>Sizes</h3>
+                    <span>XL,S,M,L,XL,XXL</span>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-item">
+            <div class="cart-front">
+                <div class="close" id="close2" onclick="cl('2')">x</div>
+                <div class="cart-img">
+                    <img id="img2" src="./prodect-images/IMG-20210703-WA0009_2.jpg" alt="product">
+                </div>
+                <div class="name-price" id="name-price2">
+                    <div class="info-item">
+                        <div class="name" id="name2">
+                        <h3>pant</h3>
+                        <span>Summer Shoes</span>
+                    </div>
+                    <div class="price" id="price2">
+                        <h3>$39</h3>
+                    </div>
+                </div>
+            </div>
+         </div>
+            <div class="cart2" id="cart2">
+                <div class="cart-item">
+                    <button onclick="addToCart('2')">Add To Cart</button>
+                    <button onclick="viewGallery('2')">View Gallery</button>
+                </div>
+                <div class="cart-item-info">
+                    <div class="info-item">
+                        <div class="name">
+                            <h3>Shoes</h3>
+                            <span>Summer Shoes</span>
+                        </div>
+                        <div class="price">
+                            <h3>$39</h3>
+                        </div>
+
+                    </div>
+                  <div class="cart-item-size">
+                    <h3>Sizes</h3>
+                    <span>XL,S,M,L,XL,XXL</span>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-item">
+            <div class="cart-front">
+                <div class="close" id="close3" onclick="cl('3')">x</div>
+                <div class="cart-img">
+                    <img id="img3" src="./prodect-images/IMG-20210703-WA0009_2.jpg" alt="product">
+                </div>
+                <div class="name-price" id="name-price3">
+                    <div class="info-item">
+                        <div class="name" id="name3">
+                        <h3>pajama</h3>
+                        <span>Summer Shoes</span>
+                    </div>
+                    <div class="price" id="price3">
+                        <h3>$39</h3>
+                    </div>
+                </div>
+            </div>
+         </div>
+            <div class="cart3" id="cart3">
+                <div class="cart-item">
+                    <button onclick="addToCart('3')">Add To Cart</button>
+                    <button onclick="viewGallery('3')">View Gallery</button>
+                </div>
+                <div class="cart-item-info">
+                    <div class="info-item">
+                        <div class="name">
+                            <h3>Shoes</h3>
+                            <span>Summer Shoes</span>
+                        </div>
+                        <div class="price">
+                            <h3>$39</h3>
+                        </div>
+
+                    </div>
+                  <div class="cart-item-size">
+                    <h3>Sizes</h3>
+                    <span>XL,S,M,L,XL,XXL</span>
+                  </div>
+                </div>
+            </div>
+        </div>  -->
+       
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
